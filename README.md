@@ -1,5 +1,5 @@
 # Laravel Quasar Starter Kit
-> Implementation of Quasar-Framework UMD under Laravel framework.
+> Implementation of Quasar - Framework UMD under Laravel framework.
 
 ## Usage
 
