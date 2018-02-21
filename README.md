@@ -8,8 +8,8 @@ npm install
 cp .env.example .env
 php artisan key:generate
 
-# Quasar Framework UMD Starter Kit
-> This template is mainly for showing how you can use the Quasar UMD version.
+# Laravel Quasar Starter Kit
+> Implementation of Quasar UMD under Laravel framework.
 
 ## Usage
 Use Quasar CLI to generate a new project using this template:
