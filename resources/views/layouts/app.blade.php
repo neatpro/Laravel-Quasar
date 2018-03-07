@@ -15,9 +15,7 @@
 
   <title>{{ config('app.name', 'Laravel') }}</title>
 
-  <!-- Styles -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Material+Icons" rel="stylesheet" type="text/css">
-  <link href="https://unpkg.com/quasar-framework@0.15.1/dist/umd/quasar.mat.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
   <div id="app">
@@ -67,24 +65,6 @@
   </div>
 
   <!-- Scripts -->
-  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-  <script src="https://unpkg.com/quasar-framework@0.15.1/dist/umd/quasar.mat.umd.min.js"></script>
   @yield('script')
-
-  <script>
-    new Vue({
-      el: '#app',
-      data: function () {
-        return {
-          drawerState: false
-        }
-      },
-      methods: {
-        launch: function (url) {
-          Quasar.utils.openURL(url)
-        }
-      }
-    })
-  </script>
 </body>
 </html>
